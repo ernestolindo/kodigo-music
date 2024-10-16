@@ -7,7 +7,7 @@ export const Home = () => {
       <div className="navbar-bg">
         <header className="header-container contenedor">
           <section className="logo">
-            <img src="/kodigo-music/kodigo-music.png" alt="Kodigo Music" />
+            <img src="/kodigo-music/logo-km.png" alt="Kodigo Music" />
             <h1>Kodigo Music</h1>
           </section>
 
@@ -33,14 +33,18 @@ export const Home = () => {
         <div className="lista-albums">
           <div className="album">
             <Link to="javascript:void(0)">
-              <img src="/bites.jpeg" alt="Bites" style={{ width: "20vw", height: "auto" }} />
+              <img
+                src="/kodigo-music/bites.jpeg"
+                alt="Bites"
+                style={{ width: "20vw", height: "auto" }}
+              />
               <h3>Bites</h3>
             </Link>
           </div>
           <div className="album">
             <Link to="javascript:void(0)">
               <img
-                src="/hacking-music.jpeg"
+                src="/kodigo-music/hacking-music-1.jpg"
                 alt="Hacking music"
                 style={{ width: "20vw", height: "auto" }}
               />
@@ -50,7 +54,7 @@ export const Home = () => {
           <div className="album">
             <Link to="javascript:void(0)">
               <img
-                src="/been-a-fine-day.jpeg"
+                src="/kodigo-music/been-a-fine-day.jpeg"
                 alt="Been a fine day"
                 style={{ width: "20vw", height: "auto" }}
               />

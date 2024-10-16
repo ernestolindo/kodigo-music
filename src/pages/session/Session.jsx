@@ -10,13 +10,13 @@ export const Session = () => {
       <div className="navbar-bg">
         <header className="header-container contenedor">
           <section className="logo">
-            <img src="/kodigo-music.png" alt="Kodigo Music" />
+            <img src="/kodigo-music/logo-km.png" alt="Kodigo Music" />
             <h1>Kodigo Music</h1>
           </section>
           <section className="nav-container">
             <button
               id="login-btn"
-              class="auth-toggle"
+              className="auth-toggle"
               onClick={() => {
                 setTypeForm("login");
               }}
@@ -25,7 +25,7 @@ export const Session = () => {
             </button>
             <button
               id="register-btn"
-              class="auth-toggle"
+              className="auth-toggle"
               onClick={() => {
                 setTypeForm("register");
               }}
@@ -43,10 +43,14 @@ export const Session = () => {
         <section className="promocion-km">
           <h2>La inspiración que necesitas para rekodificar el futuro</h2>
           <div className="km-grid">
-            <img src="/music-1.jpg" alt="Programming" className="km-img" />
-            <img src="/music-2.jpg" alt="Listening to music" className="km-img" />
-            <img src="/music-3.jpg" alt="Headphones" className="km-img" />
-            <img src="/music-4.jpg" alt="Girl delighted with music" className="km-img" />
+            <img src="/kodigo-music/music-1.jpg" alt="Programming" className="km-img" />
+            <img src="/kodigo-music/music-2.jpg" alt="Listening to music" className="km-img" />
+            <img src="/kodigo-music/music-3.jpg" alt="Headphones" className="km-img" />
+            <img
+              src="/kodigo-music/music-4.jpg"
+              alt="Girl delighted with music"
+              className="km-img"
+            />
           </div>
         </section>
       </main>
