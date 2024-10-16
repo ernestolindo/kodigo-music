@@ -7,7 +7,7 @@ export const Home = () => {
       <div className="navbar-bg">
         <header className="header-container contenedor">
           <section className="logo">
-            <img src="/kodigo-music.png" alt="Kodigo Music" />
+            <img src="/kodigo-music/kodigo-music.png" alt="Kodigo Music" />
             <h1>Kodigo Music</h1>
           </section>
 

@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       {/* Activamos la biblioteca react-router-dom */}
-      <BrowserRouter>
+      <BrowserRouter basename="/kodigo-music">
         {/* Definimos las rutas adentro de esta etiqueta */}
         <Routes>
           {/* Definimos las rutas */}
